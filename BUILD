@@ -9,7 +9,6 @@ android_binary (
 
 java_library(
   name="commons-lang",
-  visibility = ["//visibility:public"],
   exports = [
     "@commons-lang/commons-lang//jar",
   ],
