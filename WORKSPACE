@@ -6,5 +6,3 @@ android_sdk_repository(
 )
 
 maven_jar(name = "commons-lang/commons-lang", artifact = "commons-lang:commons-lang:jar:20030203.000129")
-
-fail('HELLO!')
