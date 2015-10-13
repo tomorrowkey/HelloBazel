@@ -5,4 +5,4 @@ android_sdk_repository(
     build_tools_version="23.0.1"
 )
 
-maven_jar(name = "commons-lang/commons-lang", artifact = "commons-lang:commons-lang:jar:20030203.000129")
+maven_jar(name = "commons-lang", artifact = "org.apache.commons:commons-lang3:3.4")

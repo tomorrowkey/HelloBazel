@@ -1,6 +1,6 @@
 package jp.tomorrowkey.android.hellobazel;
 
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
