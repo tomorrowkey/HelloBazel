@@ -9,7 +9,7 @@ android_binary (
     "//external:android/appcompat_v7", 
     "@androidsdk//:appcompat_v7_import",
     "commons-lang", 
-    "@smoothprogressbar//:smoothprogressbar",
+    "@fbutton//:fbutton",
   ],
 )
 

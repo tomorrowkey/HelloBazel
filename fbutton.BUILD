@@ -1,6 +1,6 @@
 android_library (
-  name = "smoothprogressbar",
-  custom_package = "fr.castorflex.android.smoothprogressbar",
+  name = "fbutton",
+  custom_package = "info.hoang8f.fbutton",
   manifest = "AndroidManifest.xml",
   resource_files = glob(["res/**"]),
   visibility = ["//visibility:public"],
