@@ -1,11 +1,11 @@
 package jp.tomorrowkey.android.hellobazel;
 
-import org.apache.commons.lang3.RandomStringUtils;
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import org.apache.commons.lang3.RandomStringUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.click_me_mbutton).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.click_me_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onClickButton();
