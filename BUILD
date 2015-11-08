@@ -5,11 +5,11 @@ android_binary (
   manifest = "HelloBazel/app/src/main/AndroidManifest.xml",
   resource_files = glob(["HelloBazel/app/src/main/res/**"]),
   deps = [
-    "//external:android/appcompat_v4", 
-    "//external:android/appcompat_v7", 
+    "@androidsdk//:appcompat_v4", 
+    "@androidsdk//:appcompat_v7", 
     "@androidsdk//:appcompat_v7_import",
-    "commons-lang", 
     "@fbutton//:fbutton",
+    "commons-lang", 
   ],
 )
 
