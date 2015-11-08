@@ -9,13 +9,6 @@ android_binary (
     "@androidsdk//:appcompat_v7",
     "@androidsdk//:appcompat_v7_import",
     "@fbutton//:library",
-    "commons-lang",
-  ],
-)
-
-java_library(
-  name="commons-lang",
-  exports = [
-    "@commons-lang//jar",
+    "@commons-lang//jar:jar",
   ],
 )
