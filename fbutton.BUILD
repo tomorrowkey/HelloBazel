@@ -1,5 +1,5 @@
 android_library (
-  name = "fbutton",
+  name = "library",
   custom_package = "info.hoang8f.fbutton",
   manifest = "AndroidManifest.xml",
   resource_files = glob(["res/**"]),
