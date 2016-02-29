@@ -24,11 +24,11 @@ See at http://bazel.io/docs/install.html to install bazel
 # Build the app
 
 ```bash
-$ bazel build :android
+$ bazel build :app
 ```
 
 # Install the app
 
 ```bash
-$ bazel mobile-install :android
+$ bazel mobile-install :app
 ```
